@@ -1,0 +1,2 @@
+export const IG_LINK = "https://www.instagram.com/rentout.id"
+export const WA_LINK = "https://api.whatsapp.com/send?phone=6287745064437&text=Halo,%20saya%20lihat%20iklan%20Renout.id%20di%20internet.%20Saya%20minat,%20bisa%20minta%20info%20lebih%20lanjut?&source=&data="
