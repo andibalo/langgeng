@@ -10,8 +10,11 @@ export const HowItWorks = () => {
     <div id="howItWorks">
       <SectionSpacer>
         <Container>
-          <SectionHeader text={"Cara kerja Rentout.id"} />
-          <Box mb="10">
+          <SectionHeader data-aos="zoom-out" text={"Cara Kerja Soulmeet"} />
+          <Box 
+          mb="10"
+          data-aos="fade-right"
+          >
             <Stack
               direction={{ base: "column", md: "row" }}
               mb={{ base: "12", md: "8" }}
@@ -55,6 +58,7 @@ export const HowItWorks = () => {
               direction={{ base: "column-reverse", md: "row" }}
               mb={{ base: "12", md: "8" }}
               flex={"1"}
+              data-aos="fade-left"
             >
               <Flex alignItems={"center"} flex="0 0 50%">
                 <Box maxW="500px">

@@ -17,7 +17,10 @@ export const Hero = () => {
           justifyContent={{ base: "center", md: "initial" }}
           flex="0 0 50%"
         >
-          <Box>
+          <Box
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+          >
             <Heading
               as="h1"
               color="secondary.100"
@@ -53,6 +56,8 @@ export const Hero = () => {
           alignItems={"center"}
           justifyContent={{ base: "center", md: "initial" }}
           flex="0 0 50%"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
         >
           <Box w="100%" maxW="600px">
             <Image
