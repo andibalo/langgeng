@@ -8,10 +8,10 @@ export const HaveSomethingToRent = () => {
         <Container>
           <Flex justifyContent={"center"} alignItems={"center"}>
             <Box>
-              <Heading textAlign={"center"} mb="2" color="primary.200">
+              <Heading textAlign={"center"} mb="2" color="light.200">
                 Punya kamera nganggur di rumah?
               </Heading>
-              <Heading textAlign={"center"} mb="8" color="secondary.100">
+              <Heading textAlign={"center"} mb="8" color="light.100">
                 Sewain aja di Rentout.id!
               </Heading>
               <Box textAlign={"center"}>

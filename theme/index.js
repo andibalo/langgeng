@@ -8,6 +8,10 @@ export const theme = extendTheme({
       },
       secondary: {
         100: "#0061f0"
+      },
+      light: {
+        100: "#ffffff",
+        200: "#ffffff",
       }
     },
     fonts: {
