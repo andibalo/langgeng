@@ -11,11 +11,11 @@ import { Container, SectionSpacer, SectionHeader } from "../commons";
 
 export const Faq = () => {
   return (
-    <div id="faq">
+    <div id="faq" >
       <SectionSpacer>
         <Container>
-          <SectionHeader text={"Frequently Asked Questions"} />
-          <Accordion>
+          <SectionHeader data-aos="fade-up" text={"Frequently Asked Questions"} />
+          <Accordion data-aos="fade-up">
             <AccordionItem>
               <h2>
                 <AccordionButton>

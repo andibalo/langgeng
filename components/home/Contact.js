@@ -16,7 +16,7 @@ export const Contact = () => {
               justifyContent={{ base: "center", md: "initial" }}
               flex="0 0 50%"
             >
-              <Box w="100%" maxW="500px">
+              <Box w="100%" maxW="500px" data-aos="fade-right">
                 <Image
                   src={eatTogetherVector}
                   layout="responsive"
@@ -30,7 +30,7 @@ export const Contact = () => {
               justifyContent={{ base: "center", md: "initial" }}
               flex="0 0 50%"
             >
-              <Box maxW="500px">
+              <Box maxW="500px" data-aos="fade-left">
                 <Heading as="h2" color="black" mb="5">
                   Cari <Box as="span" color="primary.200" fontStyle="italic" >soulmate</Box> kamu di <Box as="span" color="primary.200">Soulmeet!</Box>
                 </Heading>

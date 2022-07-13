@@ -5,12 +5,13 @@ import feedbackVector from "../../public/feedback.png";
 
 export const Feedback = () => {
   return (
-    <div id="feedback">
+    <div id="feedback" >
       <SectionSpacer>
         <Container>
           <Flex justifyContent={"center"}>
             <Box w="100%" maxW="500px">
               <Image
+                data-aos="fade-up"
                 src={feedbackVector}
                 layout="responsive"
                 placeholder="blur"
@@ -18,7 +19,7 @@ export const Feedback = () => {
               />
             </Box>
           </Flex>
-          <Box mb="10">
+          <Box mb="10" data-aos="fade-up">
             <Heading textAlign={"center"} color={"primary.200"} mb="3">
               Terima kasih sudah memercayai Rentout.id.
             </Heading>
@@ -27,7 +28,7 @@ export const Feedback = () => {
               lebih baik!
             </Text>
           </Box>
-          <Flex justifyContent={"center"}>
+          <Flex justifyContent={"center"} data-aos="fade-up">
             <Button as="a" target="_blank" href="https://forms.gle/GLDsrjFLaTqxC1hEA">
               Cari Soulmate!
             </Button>
