@@ -1,7 +1,7 @@
 import { Box, Stack, Heading, Flex } from "@chakra-ui/react";
 import { Container, Navbar, Button } from "../commons";
 import Image from "next/image";
-import heroVector from "../../public/Hero.png";
+import heroVector from "../../public/hero.png";
 
 export const Hero = () => {
   return (
