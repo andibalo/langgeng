@@ -2,23 +2,23 @@ import { Box, Stack, Heading, Flex, Text } from "@chakra-ui/react";
 import Image from "next/image";
 import { Container, SectionSpacer, SectionHeader, Button } from "../commons";
 import formVector from "../../public/fill_form.png";
-import resultVector from "../../public/result.png";
-import deliveryVector from "../../public/delivery.png";
+import onlineDateVector from "../../public/online_dating.png";
+import blindDateVector from "../../public/blind_date.png";
 
 export const HowItWorks = () => {
   return (
     <div id="howItWorks">
       <SectionSpacer>
         <Container>
-          <SectionHeader data-aos="zoom-out" text={"Cara Kerja Soulmeet"} />
-          <Box 
-          mb="10"
-          data-aos="fade-right"
+          <SectionHeader data-aos="fade-up" text={"Cara Pendaftaran Blind Date"} />
+          <Box
+            mb="10"
           >
             <Stack
               direction={{ base: "column", md: "row" }}
               mb={{ base: "12", md: "8" }}
               flex={"1"}
+              data-aos="fade-right"
             >
               <Flex
                 alignItems={"center"}
@@ -45,11 +45,10 @@ export const HowItWorks = () => {
                     <Box as="span" color="primary.200">
                       1.
                     </Box>{" "}
-                    Isi formulir sewa kamera
+                    Isi formulir pendaftaran
                   </Heading>
                   <Text>
-                    Tuliskan data diri Anda beserta produk yang ingin dipinjam
-                    selengkap mungkin untuk mengurangi kesalahan.
+                    Pilih tanggal event kemudian isi informasi diri
                   </Text>
                 </Box>
               </Flex>
@@ -86,7 +85,7 @@ export const HowItWorks = () => {
               >
                 <Box w="100%" maxW="500px">
                   <Image
-                    src={resultVector}
+                    src={onlineDateVector}
                     layout="responsive"
                     placeholder="blur"
                     alt="shopping vector image"
@@ -94,15 +93,16 @@ export const HowItWorks = () => {
                 </Box>
               </Flex>
             </Stack>
-            <Stack direction={{ base: "column", md: "row" }} flex={"1"}>
+            <Stack direction={{ base: "column", md: "row" }} flex={"1"} data-aos="fade-right">
               <Flex
                 alignItems={"center"}
                 justifyContent={{ base: "center", md: "initial" }}
                 flex="0 0 50%"
+
               >
                 <Box w="100%" maxW="500px">
                   <Image
-                    src={deliveryVector}
+                    src={blindDateVector}
                     layout="responsive"
                     placeholder="blur"
                     alt="shopping vector image"
@@ -131,13 +131,15 @@ export const HowItWorks = () => {
             </Stack>
           </Box>
           <Flex justifyContent={"center"}>
-            <Button
-              as="a"
-              href="https://forms.gle/KV4GwNSh1brorM2h8"
-              target="_blank"
-            >
-              Sewa kamera
-            </Button>
+            <Box data-aos="fade-up">
+              <Button
+                as="a"
+                href="https://forms.gle/KV4GwNSh1brorM2h8"
+                target="_blank"
+              >
+                Cari Soulmate!
+              </Button>
+            </Box>
           </Flex>
         </Container>
       </SectionSpacer>

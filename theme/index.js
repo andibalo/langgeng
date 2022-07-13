@@ -5,6 +5,7 @@ export const theme = extendTheme({
       primary: {
         100: "#0061f0",
         200: "#0061f0",
+        300: "#005be1"
       },
       secondary: {
         100: "#0061f0"
@@ -18,4 +19,5 @@ export const theme = extendTheme({
         heading: 'Nunito',
         body: 'Inter',
     },
+
   })

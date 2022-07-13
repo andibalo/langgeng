@@ -1,6 +1,12 @@
 import { Button as ChakraButton } from "@chakra-ui/react";
 
-const primaryBtnStyles = { backgroundColor: "primary.200", color: "white" };
+const primaryBtnStyles = {
+  backgroundColor: "primary.200",
+  color: "white",
+  _hover: {
+    backgroundColor: "primary.300"
+  }
+};
 
 const outlinePrimaryBtnStyles = {
   backgroundColor: "primary.200",

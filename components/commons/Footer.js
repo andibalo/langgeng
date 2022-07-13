@@ -7,7 +7,7 @@ export const Footer = () => {
       <Text textAlign={"center"} color="secondary.100">
         &copy; Copyright {new Date().getFullYear()}. Made with love by{" "}
         <Box as="a" href={IG_LINK} target={"_blank"} color="primary.200">
-          Rentout
+          Soulmeet
         </Box>{" "}
         team
       </Text>

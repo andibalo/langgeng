@@ -29,7 +29,7 @@ export const Feedback = () => {
           </Box>
           <Flex justifyContent={"center"}>
             <Button as="a" target="_blank" href="https://forms.gle/GLDsrjFLaTqxC1hEA">
-              Isi form penyewaan
+              Cari Soulmate!
             </Button>
           </Flex>
         </Container>

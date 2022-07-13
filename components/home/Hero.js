@@ -1,7 +1,7 @@
 import { Box, Stack, Heading, Flex } from "@chakra-ui/react";
 import { Container, Navbar, Button } from "../commons";
 import Image from "next/image";
-import cameraVector from "../../public/camera.png";
+import heroVector from "../../public/Hero.png";
 
 export const Hero = () => {
   return (
@@ -18,17 +18,17 @@ export const Hero = () => {
           flex="0 0 50%"
         >
           <Box
-            data-aos="zoom-in"
-            data-aos-duration="2000"
+            data-aos="fade-right"
+            data-aos-duration="1000"
           >
             <Heading
               as="h1"
-              color="secondary.100"
+              color="black"
               fontSize={{ base: "3xl", sm: "4xl" }}
               mb="10"
               textAlign={{ base: "center", md: "initial" }}
             >
-              Nyewa kamera <Box as="span" color="primary.200">berkualitas</Box> dengan <Box as="span" color="primary.200">keamanan terjamin</Box>? <br/>Di <Box as="span" color="primary.200">Rentout.id</Box> aja!
+              Platform bagi kamu yang <Box as="span" color="primary.100">serius nyari pasangan</Box> untuk <Box as="span" color="primary.100">bertemu</Box> dan <Box as="span" color="primary.100">ngomong langsung</Box> dengan future <Box fontStyle="italic" as="span" color="primary.100">soulmate</Box> kamu!
             </Heading>
             <Stack
               direction={{ base: "column", sm: "row" }}
@@ -39,15 +39,15 @@ export const Hero = () => {
                 href="https://forms.gle/KV4GwNSh1brorM2h8"
                 target="_blank"
               >
-               Sewa kamera
+                Cari Soulmate!
               </Button>
               <Button
-                as="a"
-                href="https://forms.gle/7XMhS2FVWi5Fuf4G6"
-                target="_blank"
                 btnType="outline"
+                as="a"
+                href="https://forms.gle/KV4GwNSh1brorM2h8"
+                target="_blank"
               >
-                Saya seorang pemberi sewa
+                Pelajari lebih
               </Button>
             </Stack>
           </Box>
@@ -56,15 +56,15 @@ export const Hero = () => {
           alignItems={"center"}
           justifyContent={{ base: "center", md: "initial" }}
           flex="0 0 50%"
-          data-aos="zoom-in"
-          data-aos-duration="2000"
+          data-aos="fade-left"
+          data-aos-duration="1000"
         >
           <Box w="100%" maxW="600px">
             <Image
-              src={cameraVector}
+              src={heroVector}
               layout="responsive"
               placeholder="blur"
-              alt="shopping vector image"
+              alt="hero vector image"
             />
           </Box>
         </Flex>

@@ -1,7 +1,7 @@
 import { Box, Stack, Heading, Flex, Text, Icon } from "@chakra-ui/react";
 import Image from "next/image";
 import { Container, SectionSpacer, Button } from "../commons";
-import buildingWebsiteVector from "../../public/building_website.png";
+import eatTogetherVector from "../../public/eat_together.png";
 import { AiOutlineInstagram, AiOutlineWhatsApp } from "react-icons/ai";
 import { IG_LINK, WA_LINK } from "../../utils/constants";
 
@@ -18,10 +18,10 @@ export const Contact = () => {
             >
               <Box w="100%" maxW="500px">
                 <Image
-                  src={buildingWebsiteVector}
+                  src={eatTogetherVector}
                   layout="responsive"
                   placeholder="blur"
-                  alt="shopping vector image"
+                  alt="eat together image"
                 />
               </Box>
             </Flex>
@@ -31,8 +31,8 @@ export const Contact = () => {
               flex="0 0 50%"
             >
               <Box maxW="500px">
-                <Heading as="h2" color="secondary.100" mb="5">
-                  Mulai transaksi pinjam sewa di Rentout.id!
+                <Heading as="h2" color="black" mb="5">
+                  Cari <Box as="span" color="primary.200" fontStyle="italic" >soulmate</Box> kamu di <Box as="span" color="primary.200">Soulmeet!</Box>
                 </Heading>
                 <Stack
                   direction={{ base: "column", sm: "row" }}
@@ -44,7 +44,7 @@ export const Contact = () => {
                     href="https://forms.gle/KV4GwNSh1brorM2h8"
                     target="_blank"
                   >
-                    Sewa kamera
+                    Cari Soulmate!
                   </Button>
                   <Button
                     as="a"
@@ -52,7 +52,7 @@ export const Contact = () => {
                     target="_blank"
                     btnType="outline"
                   >
-                    Saya seorang pemberi sewa
+                    Kontak Kami
                   </Button>
                 </Stack>
                 <Stack

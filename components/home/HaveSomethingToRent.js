@@ -6,21 +6,22 @@ export const HaveSomethingToRent = () => {
     <Box bg="primary.100">
       <SectionSpacer>
         <Container>
-          <Flex justifyContent={"center"} alignItems={"center"}>
-            <Box>
+          <Flex  justifyContent={"center"} alignItems={"center"}>
+            <Box data-aos="fade-up"> 
               <Heading textAlign={"center"} mb="2" color="light.200">
-                Punya kamera nganggur di rumah?
+                Kesulitan nyari hubungan serius di dating apps lain?
               </Heading>
               <Heading textAlign={"center"} mb="8" color="light.100">
-                Sewain aja di Rentout.id!
+                Cari di Soulmeet aja!
               </Heading>
               <Box textAlign={"center"}>
                 <Button
+                  btnType="outline"
                   as="a"
                   href="https://forms.gle/7XMhS2FVWi5Fuf4G6"
                   target="_blank"
                 >
-                  Saya seorang pemberi sewa
+                  Cari Soulmate!
                 </Button>
               </Box>
             </Box>
