@@ -9,8 +9,8 @@ function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider theme={theme}>
       <DefaultSeo
-        title="Platform Sewa Menyewa Kamera | Rentout"
-        description="Rentout merupakan platform sewa menyewa kamera. Request kamera yang ingin kamu sewa ke kami dan kami akan mencarikannya untuk kamu!"
+        title="Platform untuk ngobrol langsung dengan calon soulmate kamu | Soulmeet"
+        description="Soulmeet adalah platform bagi kamu yang serius mencari pasangan untuk bertemu dan ngobrol langunsg dengan future soulmate kamu."
         {...SEOConfig}
       />
       <Script
