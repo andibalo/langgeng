@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider theme={theme}>
       <DefaultSeo
-        title="Platform untuk ngobrol langsung dengan calon soulmate kamu | Soulmeet"
+        title="Platform Bagi Kamu Yang Mencari Hubungan Serius | Soulmeet"
         description="Soulmeet adalah platform bagi kamu yang serius mencari pasangan untuk bertemu dan ngobrol langunsg dengan future soulmate kamu."
         {...SEOConfig}
       />
